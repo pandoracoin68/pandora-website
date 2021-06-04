@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en" class="js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Pandora Coin $PADO is the main payment currency of Pandora.">
+<meta name="keywords" content="Pandora Coin,pado coin,pado,Pandora token,pandora,buy Pandora Coin,what is Pandora Coin">
+<meta name="author" content="Pandora Coin">
+<meta property='og:title' content='Pandora Coin $PADO is the main payment currency of Pandora.' />
+<meta property="og:type" content="Website"/>
+<meta property="og:url" content="https://pandoracoin.finance"/>
+<meta property="article:publisher" content="{{$facebookUrl}}" />
+<meta property="article:section" content="cryptocurrency"/>
+<meta property="article:published_time" content="2021/04/26 01:03:21"/>
+<meta property="article:modified_time" content="2021/05/22 06:23:33"/>
+<meta property="og:image" content="https://pandoracoin.finance/img/web-img.png"/>
+<meta property="og:image:secure_url" content="https://pandoracoin.finance/img/web-img.png"/>
+<meta property="og:image:width" content="600"/>
+<meta property="og:image:height" content="450"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:description" content="Pandora Coin $PADO is the main payment currency of Pandora."/>
+<meta name="twitter:title" content="Pandora Coin $PADO is the main payment currency of Pandora."/>
+<meta name="twitter:image" content="https://pandoracoin.finance/img/web-img.png"/>
+<!-- Site Title  -->
+<title>{{$tokenName}} | Main payment currency of Pandora.</title>
+<base href="{{asset('')}}">
+<!-- Fav Icon  -->
+<link rel="shortcut icon" href="img/favicon.ico">
+<!-- Bundle and Base CSS -->
+<link rel="stylesheet" href="assets/css/vendor.bundle.css?ver=1930">
+<link rel="stylesheet" href="assets/css/style-azalea.css?ver=1930" id="changeTheme">
+<!-- Extra CSS -->
+<link rel="stylesheet" href="assets/css/theme.css?ver=1930">
+
+</head>
+
+    <body class="nk-body body-wider bg-theme">
+ 
+    <div class="nk-wrap">
+        <header class="nk-header page-header is-transparent is-sticky is-dark" id="header">
+            <!-- Header @s -->
+            <div class="header-main">
+                <div class="header-container container container-xxl">
+                    <div class="header-wrap">
+                        <!-- Logo @s -->
+                        <div class="header-logo logo animated" data-animate="fadeInDown" data-delay=".6">
+                            <a href="./" class="logo-link">
+                                <img class="logo-dark" src="img/logo-s2-white.png" srcset="img/logo-s2-white2x.png 2x" alt="logo">
+                                <img class="logo-light" src="img/logo-s2-white.png" srcset="img/logo-s2-white2x.png 2x" alt="logo">
+                            </a>
+                        </div>
+
+                        <!-- Menu Toogle @s -->
+                        <div class="header-nav-toggle">
+                            <a href="#" class="navbar-toggle" data-menu-toggle="header-menu">
+                                <div class="toggle-line">
+                                    <span></span>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- Menu @s -->
+                        <div class="header-navbar animated" data-animate="fadeInDown" data-delay=".6">
+                            <nav class="header-menu" id="header-menu">
+    <ul class="menu">
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="/">Home</a>
+    </li>
+    
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="#token">Tokenomics</a>
+    </li>
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="#roadmap">Roadmap</a>
+    </li>
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="#team">Team</a>
+    </li>
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="#gemStore">GemStore</a>
+    </li>
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="pandora-coin-whitepaper-v-1-0.pdf" target="_blank">White Paper</a>
+    </li>
+    <li class="menu-item">
+        <a class="menu-link nav-link" href="game">Game</a>
+    </li>
+</ul>
+
+    <ul class="menu-btns">
+        <li><a href="{{$telegramUrl}}" target="_blank" class="btn btn-md btn-thin btn-outline btn-auto btn-primary btn-round no-change"><span><em class="contact-icon fas fa-paper-plane"></em>Join Us On Telegram</span></a></li>
+    </ul>
+</nav>
+                        </div><!-- .header-navbar @e -->
+                    </div>                                                
+                </div>
+            </div><!-- .header-main @e -->
+
+            <div class="banner banner-fs tc-light">
+
+                <div class="nk-block nk-block-sm nk-block-header my-auto">
+                    <div class="container container-xxl pt-5">
+                        <div class="row align-items-center justify-content-center justify-content-lg-between gutter-vr-30px">
+                            <div class="col-lg-6 order-lg-last">
+                                <div class="banner-gfx banner-gfx-auto animated" data-animate="fadeInUp" data-delay=".7">
+                                    <img src="img/main-pic.fw.png" alt="header">
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-xl-5 col-lg-6 col-sm-10 text-center text-lg-left">
+                                <div class="banner-caption">
+                                    <h1 class="title title-lg ttu animated" data-animate="fadeInUp" data-delay=".8">Pandora Coin</h1>
+                                    <p class="lead animated" data-animate="fadeInUp" data-delay=".9">
+                                        Pandora Coin is the main payment currency of Pandora. <br>Pandora is the fifth moon of the gas giant Polyphemus, which orbits Alpha Centauri A in the Alpha Centauri System, the closest star system to our own sun.</p>
+                                    <div class="cpn-action animated" data-animate="fadeInUp" data-delay="1">
+                                        <a class="btn btn-primary btn-round" href="{{$tokenBuyUrl}}" target="_blank">Buy On PanCakeSwap</a>
+                                    </div>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div>
+                </div>
+                
+                <div class="nk-block nk-block-actions">
+                    <div class="container container-xxl">
+                        <div class="row gutter-vr-40px align-items-center">
+                            <div class="col-sm-7 d-flex justify-content-center justify-content-sm-start">
+                                <ul class="btn-grp btn-grp-break justify-content-center justify-content-sm-start gutter-vr-20px">
+                                    <li class="animated" data-animate="fadeInUp" data-delay="0.8"><a href="{{$clipUrl}}" class="link link-light link-break video-popup"><em class="icon-circle icon-border icon-animation fas fa-play"></em><span>What's pandora coin</span></a></li>
+                                    <li class="animated" data-animate="fadeInUp" data-delay="0.9"><a href="https://files.learnnavi.org/dicts/NaviDictionary.pdf" target="_blank" class="link link-light link-break"><em class="icon-circle icon-border far fa-lightbulb"></em><span>Na'vi Language</span></a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-5">
+                                <ul class="social-links social-links-s2 justify-content-center justify-content-sm-end animated" data-animate="fadeInUp" data-delay="1">
+                                    <li><a href="{{$twitterUrl}}"><em class="fab fa-twitter"></em></a></li>
+                                    <li><a href="{{$telegramUrl}}"><em class="fab fa-telegram"></em></a></li>
+                                    <li><a href="{{$mediumUrl}}"><em class="fab fa-medium-m"></em></a></li>
+                                    <li><a href="{{$facebookUrl}}"><em class="fab fa-facebook-f"></em></a></li>
+                                    <li><a href="{{$youtubeChannelUrl}}"><em class="fab fa-youtube"></em></a></li>
+                                    <li><a href="{{$githudUrl}}"><em class="fab fa-github"></em></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Place Particle Js -->
+                <div id="particles-bg" class="particles-container is-fixed particles-bg op-20"></div>
+            
+            </div>
+            
+        </header>
+    
+        <main class="nk-pages tc-light">
+            <!-- // -->
+            <section class="section" id="token">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Tokenomics">Tokenomics</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row justify-content-center">
+                            <br>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="tab-1-1"  style="text-align: center;margin: auto;">
+                                <div class="row align-items-center justify-content-between gutter-vr-40px">
+                                    <div class="col-lg-6 order-lg-last">
+                                        <div class="nk-block-img nk-block-ca animated" data-animate="fadeInUp" data-delay="0.2">
+                                            <div class="nk-circle-animation nk-df-center fast"></div><!-- .circle-animation -->
+                                            <img class="shadow rounded" src="img/logo.png" alt="" style="text-align: center;margin: auto;">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <div class="nk-block-text mgb-m30">
+                                            <h2 class="title title-md animated" data-animate="fadeInUp" data-delay="0.2">Name: {{$tokenName}} ({{$tokenSymbol}})</h2>
+                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.3">
+                                                
+                                                <div class="feature-text">
+                                                    <p>Supply: 1,000,000,000,000</p>
+                                                </div>
+                                            </div>
+                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.4"><div class="feature-text">
+                                                    <p>Symbol: {{$tokenSymbol}}</p>
+                                                </div>
+                                            </div>
+                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.5"><div class="feature-text">
+                                                    <p>Decimals: 8</p>
+                                                </div>
+                                                
+                                            </div>
+
+                                            <div class="feature feature-inline feature-middle animated" data-animate="fadeInUp" data-delay="0.6">
+                                                
+                                                <div class="feature-text">
+                                                    <p  style="text-align: left;">Distribution: 95% Liqudity (locked 3 years) / 5% Marketing</p>
+                                                </div>
+                                            </div>
+                                            <div class="text-center text-sm-left animated" data-animate="fadeInUp" data-delay="0.7">
+                                                <a href="{{$tokenChartUrl}}" target="_blank" class="btn btn-round btn-primary">VIEW CHART</a>
+                                                <a href="{{$bscanUrl}}" target="_blank" class="btn btn-round btn-primary">VIEW BSCSCAN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .container -->
+
+            </section>
+            <!-- // -->
+            <section class="section" id="mvp">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="PANDORA Special Features">Special Features</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row align-items-center justify-content-center justify-content-xl-between gutter-vr-30px">
+                            <div class="col-xxl-6 col-xl-6 col-lg-8">
+                                <div class="nk-block-img nk-block-plx animated" data-animate="fadeInUp" data-delay="0.3">
+                                    <img class="shadow rounded" src="img/planet.fw.png" alt="">
+                                    <img class="nk-block-img-plx plx-circle plx-circle-s1" src="img/sun.png" alt="">
+                                    <img class="nk-block-img-plx plx-polygon plx-polygon-s1" src="img/planet-02.fw.png" alt="">
+                                    <img class="nk-block-img-plx plx-triangle plx-triangle-s1" src="img/planet-03.fw.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-xxl-5 col-xl-6 col-lg-8">
+                                <div class="nk-block-text">
+                                    <div class="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.4">
+                                        <div class="feature-icon feature-icon-md">
+                                            <em class="icon icon-xs icon-circle fas fa-check"></em>
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Every {{$tokenName}} transaction has an automatic 5% transaction tax, which is then divided 2% burn, 3% back to Holders</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.5">
+                                        <div class="feature-icon feature-icon-md">
+                                            <em class="icon icon-xs icon-circle fas fa-check"></em>
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Community driven & fair launch. No pre-sale.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.6">
+                                        <div class="feature-icon feature-icon-md">
+                                            <em class="icon icon-xs icon-circle fas fa-check"></em>
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Liquidity is locked for 3 years.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.7">
+                                        <div class="feature-icon feature-icon-md">
+                                            <em class="icon icon-xs icon-circle fas fa-check"></em>
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Renounced Contract Ownership – Community Owned.</p>
+                                        </div>
+                                    </div>
+                                    <div class="feature feature-inline animated" data-animate="fadeInUp" data-delay="0.8">
+                                        <div class="feature-icon feature-icon-md">
+                                            <em class="icon icon-xs icon-circle fas fa-check"></em>
+                                        </div>
+                                        <div class="feature-text">
+                                            <p>Every trade generates liquidity that is locked inside PancakeSwap.</p>
+                                        </div>
+                                    </div>
+                                    <div class="text-center text-sm-left animated" data-animate="fadeInUp" data-delay="0.9">
+                                        <a href="{{$tokenLpLockUrl}}" target="_blank" class="btn btn-round btn-primary">LP LOCKED CHECK</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            <!-- // -->
+            <section class="section" id="roadmap">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Timeline">ROADMAP</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="roadmap-wrap roadmap-wrap-ovl-right text-center animated" data-animate="fadeInUp" data-delay="0.3">
+                            <div class="roadmap-line-s2"></div>
+                            <div class="roadmap-slider has-carousel carousel-nav-center" data-blank="true" data-items="5" data-items-tab-l="4" data-items-tab-p="3" data-items-mobile="2" data-margin="-1" data-navs="true">
+                                <div class="roadmap roadmap-s2 roadmap-i1 roadmap-finished">
+                                    <h6 class="roadmap-year-s2">Q1 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">Jan - Mar 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Build website and social media channels.</p>
+                                        <p>Marketing plan - phase 1 </p>
+                                        <p>Whitepaper</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i2 roadmap-running">
+                                    <h6 class="roadmap-year-s2">Q2 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">Apr - Jun 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Smart Contract creation.</p>
+                                        <p>Renounced Contract Ownership – Community Owned</p>
+                                        <p>Liquidity Protocol Locked 3 Years.</p>
+                                        <p>PancakeSwap Listing</p>
+                                        <p>CMC & Coingecko listing</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i3">
+                                    <h6 class="roadmap-year-s2">Q3 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">July - Sept 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Team scaling</p>
+                                        <p>NFT marketplace launch</p>
+                                        <p>Marketing Plan - Phase 2</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i4">
+                                    <h6 class="roadmap-year-s2">Q4 2021</h6>
+                                    <h5 class="title title-sm roadmap-date">Otc - Dec 2021</h5>
+                                    <div class="roadmap-text">
+                                        <p>Large tier exchange listing.</p>
+                                    </div>
+                                </div>
+                                <div class="roadmap roadmap-s2 roadmap-i5">
+                                    <h6 class="roadmap-year-s2">Q1 2022</h6>
+                                    <h5 class="title title-sm roadmap-date">Jan - March 2022</h5>
+                                    <div class="roadmap-text">
+                                        <p>Ecosystem expansion.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- // -->
+            <section class="section" id="team">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="Core Team">OUR TEAM</h2>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="has-carousel carousel-nav-center" data-items="4" data-navs="true">
+                            <div class="item animated" data-animate="fadeInUp" data-delay="0.3">
+                                <div class="team team-s2 team-odd">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="img/mem-01.jpg" alt="">
+                                        <a href="#team-popup-1" class="team-show content-popup"></a>
+                                    </div>
+                                    <h5 class="team-name title title-md">David Miller</h5>
+                                    <span class="team-position">CEO &amp; Lead Blockchain</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="item animated" data-animate="fadeInUp" data-delay="0.4">
+                                <div class="team team-s2 team-even">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="img/mem-02.jpg" alt="">
+                                        <a href="#team-popup-2" class="team-show content-popup"></a>
+                                    </div>
+                                    <h5 class="team-name title title-md">Luis Martin</h5>
+                                    <span class="team-position">CTO &amp; Senior Developer</span>
+                                    
+                                </div>
+                            </div>
+                            <div class="item animated" data-animate="fadeInUp" data-delay="0.5">
+                                <div class="team team-s2 team-odd">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="img/mem-03.png" alt="">
+                                        <a href="#team-popup-3" class="team-show content-popup"></a>
+                                    </div>
+                                    <h5 class="team-name title title-md">Laura Smith</h5>
+                                    <span class="team-position">Marketing</span>
+                                   
+                                </div>
+                            </div>
+                            <div class="item animated" data-animate="fadeInUp" data-delay="0.6">
+                                <div class="team team-s2 team-even">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="img/mem-04.jpg" alt="">
+                                        <a href="#team-popup-4" class="team-show content-popup"></a>
+                                    </div>
+                                    <h5 class="team-name title title-md">Stephen Amell</h5>
+                                    <span class="team-position">Social Media Manager</span>
+                                    
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <div class="nk-block block-partners">
+                        <h6 class="title title-md ttu text-center animated" data-animate="fadeInUp" data-delay="0.65">FOLLOW US</h6>
+                        <ul class="has-carousel partner-list justify-content-center animated" data-items="7" data-items-mobile="2" data-auto="true" data-loop="true" data-animate="fadeInUp" data-delay="0.75">
+                            <a href="{{$cmcUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-01.fw.png" alt=""></li></a>
+                            <a href="{{$coingeckoUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-02.fw.png" alt=""></li></a>
+                            <a href="{{$tokenBuyUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-03.fw.png" alt=""></li></a>
+                            <a href="{{$bscanUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-04.fw.png" alt=""></li></a>
+                            <a href="{{$coinhuntUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-05.fw.png" alt=""></li></a>
+                            <a href="{{$cryptoMoonShotUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-06.fw.png" alt=""></li></a>
+                            <a href="{{$tokenChartUrl}}" target="_blank"><li class="partner-logo"><img src="img/list-follow-us-07.fw.png" alt=""></li></a>                      
+
+                        </ul>
+                    </div>
+            <!-- // -->
+            <section class="section" id="gemStore">
+
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-lg-6">
+                            <div class="section-head section-head-s2">
+                                <h2 class="title title-xl animated" data-animate="fadeInUp" data-delay="0.1" title="gemstone">GEMSTORE</h2>
+                                <p class="animated" data-animate="fadeInUp" data-delay="0.2">Gemstones of the Pandora</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container container-xxl">
+                    <div class="nk-block">
+                        <div class="row gutter-vr-50px">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
+                                    <div class="doc-photo doc-shape doc-shape-a">
+                                        <img src="img/gem-01.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Tears of the Sun <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.4">
+                                    <div class="doc-photo doc-shape doc-shape-b">
+                                        <img src="img/gem-05.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Dark Souls <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.6">
+                                    <div class="doc-photo doc-shape doc-shape-d">
+                                        <img src="img/gem-07.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Heart of the Sea <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.5">
+                                    <div class="doc-photo doc-shape doc-shape-c">
+                                        <img src="img/gem-03.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Legends of Chaos <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nk-block">
+                        <div class="row gutter-vr-50px">
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.3">
+                                    <div class="doc-photo doc-shape doc-shape-a">
+                                        <img src="img/gem-02.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Blood Diamond <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.4">
+                                    <div class="doc-photo doc-shape doc-shape-b">
+                                        <img src="img/gem-04.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Green Mile <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.5">
+                                    <div class="doc-photo doc-shape doc-shape-c">
+                                        <img src="img/gem-08.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Dragon Eggs <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-3">
+                                <div class="doc animated" data-animate="fadeInUp" data-delay="0.6">
+                                    <div class="doc-photo doc-shape doc-shape-d">
+                                        <img src="img/gem-06.png" alt="">
+                                    </div>
+                                    <div class="doc-text">
+                                        <h5 class="doc-title title-sm">Snow Queen <small>(999 BAKE)</small></h5>
+                                        <a class="doc-download" href="#">BUY NOW</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- // -->
+
+            
+        </main>
+        <div class="nk-ovm nk-ovm-repeat nk-ovm-fixed shape-i">
+            <div class="ovm-line"></div>
+        </div>
+    </div>
+    
+
+    <!-- preloader -->
+    <div class="preloader preloader-alt no-split"><span class="spinner spinner-alt"><img class="spinner-brand" src="img/preloader.png" alt=""></span></div>
+    
+    <!-- JavaScript -->
+    <script src="assets/js/jquery.bundle.js?ver=1930"></script>
+    <script src="assets/js/scripts.js?ver=1930"></script>
+    <script src="assets/js/charts.js?ver=1930"></script>
+</body>
+</html>
